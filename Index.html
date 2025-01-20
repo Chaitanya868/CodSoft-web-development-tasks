@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/099e741ffa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo original.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-reply" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header" >
+                <p>Fullstack Web Developer/UI/UX Designer/Data analyst</p>
+                <h1>Hi, I'm <span>Poorna</span><br>Chaitanya From India</h1>
+            </div>
+        </div>
+  
+    </div>
+     <!-----About---------------------------->
+     <div id="About">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="hi.jpg" >
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p> Jinka Purna Chaitanya is an individual from Proddatur, Andhra Pradesh, India. He is a graduating <br>engineer in 'Electronics and Communications' from Vaagdevi Institute of Technology and Science,<br> however he is aspairing to become a UI/UX Designer or Full Stack Web Developer or Data Scientist.<br>
+                
+                 He maintains an online presence across various platforms, including Instagram, Facebook, YouTube, <br>Pinterest, and Kaggle. On Instagram, he shares personal photos and videos. 
+            
+                 His YouTube channel <br>features a limited number of videos. 
+                
+                 On Kaggle, a platform for data science and machine learning, <br>he holds a novice profile. 
+            
+                 However, there is limited publicly available information regarding his <br>professional background or personal achievements.</p> 
+                 <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><BR> Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><BR> Web app Development.</li>
+                                <li><span>Data analyst</span><BR> Data analysing and model building.</li>
+                                <li><span>Linux Administration</span><br>Providing native support for containerization technologies.</li>
+                                <li><span>Docker</span><br>Create and manage lightweight, isolated contaniers efficiently and securely.</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><BR>Trainee at EI Systems for Data analyst and Machine Learning</li>
+                        <li><span>2024-25</span><BR>Intern at CodSoft as a UI/UX Designer</li>
+                            <li><span>2024-25</span><BR> Intern at CodSoft as a Web Developer </li>
+                                <li><span>2025</span><BR>Intern at CODTECH IT SOLUTIONS PVT.LTD as a FullStack Web Developer</li>
+                    </ul>
+                 </div>
+               
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-2026</span><BR> Completed B.Tech in Electronics and Communications Engineering from Vaagdevi Institue of Technology and Science, Peddhashetti palli, Proddatur</li>
+                            <li><span>2020-2021</span><BR> Completed Intermediate in "Abhyas Junior College", Proddatur</li>
+                                <li><span>2020</span><BR> Completed Secondary Education in Jeevan Jyothi High School, Proddatur</li>
+                           
+                    </ul>
+                 </div>
+            </div>
+    
+        </div>
+      </div>
+      <!---------------------Services---------------->
+      <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div> 
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Heeeeey! Are you looking to contact a web designer?  To make your world easier, here we are!</p>
+                    <a href="https://www.linkedin.com/in/jinka-poorna-chaitanya-974478280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Learn more</a>
+                </div>
+                <div> 
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>Heeeeey! Are you looking to contact a UI/UX Designer? To make your world beautiful, here we are!</p>
+                    <a href="https://www.linkedin.com/in/jinka-poorna-chaitanya-974478280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Learn more</a>
+                </div>
+                <div> 
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <h2>Data analyst</h2>
+                    <p>Heeeeey! Are you looking to contact a Data analyst? To make your world faster and creative, here we are!</p>
+                    <a href="https://www.linkedin.com/in/jinka-poorna-chaitanya-974478280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Learn more</a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!---------------------Portfolio---------------->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="task2.png" width="450px" height="700px">
+                    <div class="layer">
+                        <h3>Email Template</h3>
+                        <p>The Email template connects you to a company website where you can apply for the offered roles.</p>
+                        <a href="https://www.linkedin.com/posts/jinka-poorna-chaitanya-974478280_figma-codsoft-uidesign-activity-7277398504308649984-Tist?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                  
+                </div>
+                <div class="work">
+                    <img src="UI Task-1.png">
+                    <div class="layer">
+                        <h3>Mobile App SignUp page</h3>
+                        <p>This SignUp page will connects you to a website which takes your personal information and saved securely for further logins.</p>
+                        <a href="https://www.linkedin.com/posts/jinka-poorna-chaitanya-974478280_codsoft-activity-7277059518306439168-MWzI?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="www.linkedin.com/in/jinka-poorna-chaitanya-974478280" class="btn">See more...</a>
+        </div>
+      </div>
+      <!---------------Contact------------->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>  contact@purnachaitanyajinka@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>  9908668171</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/chaitanya.jinka/profilecard/?igsh=YjI4aXcwaGw5anBw "><i class="fa-brands fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/jinka-poorna-chaitanya-974478280"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Code_Tech1/New Resume copy.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ JinkaPoornaChaitanya. Made with<i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+      </div>
+
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+      
+        
+
+      </script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
